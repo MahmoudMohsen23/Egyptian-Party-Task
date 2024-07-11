@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root{ 
+    scroll-behavior: auto;
+}
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 30px;
+}
+.side-box ul li { 
+    margin-bottom: 30px; 
+}
+
+ ul li a:hover { 
+    color: red;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: all .3s;
+
+}
+
+.side-box { 
+    width: 250px;
+    padding: 50px;
+    display: none;
+}
+
+aside i { 
+    position: relative;
+    top: 30%;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    padding: 8px;
+    border-radius: 20px ;
+}
+
+
+/* *---FIRST SECTION--- */
+.home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../Images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mainTitle h1 {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+/* *---SECOND SECTION--- */
+.section2 {
+    h2 {
+        background-color: rgba(214, 46, 51, 0.6);
+        padding: 10px;
+        margin-bottom: 0px;
+        color: white;
+        cursor: pointer;
+    }
+
+    div.singerContent {
+        background-color: #ccc;
+        padding: 10px;
+    }
+
+    .inner { 
+        display: none;
+    }
+}
+
+/* *---THIRD SECTION--- */
+.section3 {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../Images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section3 .container {
+    padding: 100px 0px;
+}
+
+.section3 {
+    .content {
+        border: 2px solid white;
+        padding: 50px;
+    }
+
+    span {
+        font-size: 30px;
+        color: white;
+    }
+
+}
+
+/* *---FOURTH SECTION--- */
+.section4 {
+
+    p,
+    i {
+        color: #777;
+    }
+
+    a {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border: 1px solid;
+        color: #777;
+        text-align: center;
+        line-height: 27px;
+    }
+
+    a:hover { 
+        background-color: red;
+        border: 0;
+    }
+
+    a:hover i { 
+        color: white;
+    }
+}
